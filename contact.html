@@ -1,8 +1,74 @@
 <html>
     <head>
         <title>goodwater</title>
+        <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+        <style>
+            body {
+                text-align: center;
+                padding: 0;
+                margin: 0;
+            }
+            .menu {
+                background-color: rgb(70, 142, 200);
+                text-align: left;
+                display: flex;
+            }
+            .menu div {
+                flex: 1;
+            }
+            .menu div:first-child {
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+            a:first-child {
+                margin-left: 30%;
+            }
+            a {
+                margin: 1%;
+                color: white;
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                font-size: xx-large;
+            }
+            .bg {
+                max-width: 100%;
+                height: auto;
+                width: auto\9; /* ie8 */
+            }
+            .ig {
+                position: relative;
+                top: 8px;
+                background-color: white;
+                border-radius: 0.3em;
+            }
+            .container {
+                display: flex;
+            }
+            .container div {
+                flex: 1;
+            }
+            .conform {
+                background-color: rgb(70, 142, 200);
+            }
+            .wh {
+                background-color: white;
+            }
+        </style>
     </head>
     <body>
-        contact
+        <div class='menu'>
+            <div>            
+                <a href="./index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+                <a href="https://www.instagram.com/goodwateregypt/">
+                    <img class="ig" width="36px" height="36px" src="instagram.png" alt=""></a></div>
+
+            <div class="wh"></div>
+        </div>
+        <div class="container">
+            <div class="conform">
+                some text</div>
+            <div><img class="bg" src="contact.jpg"></div></div>
+        </div>
     </body>
 </html>

@@ -10,10 +10,18 @@
             }
             .menu {
                 background-color: rgb(70, 142, 200);
-                text-align: right;
-                padding-right: 10%;
+                text-align: left;
+                display: flex;
+            }
+            .menu div {
+                flex: 1;
+            }
+            .menu div:first-child {
                 padding-top: 1%;
                 padding-bottom: 1%;
+            }
+            a:first-child {
+                margin-left: 30%;
             }
             a {
                 margin: 1%;
@@ -27,7 +35,6 @@
                 height: auto;
                 width: auto\9; /* ie8 */
             }
-
             .ig {
                 position: relative;
                 top: 8px;
@@ -38,10 +45,13 @@
     </head>
     <body>
         <div class='menu'>
-            <a href="#">Home</a>
-            <a href="./contact.html">Contact</a>
-            <a href="https://www.instagram.com/goodwateregypt/">
-                <img class="ig" width="36px" height="36px" src="instagram.png" alt=""></a>
+            <div>            
+                <a href="./index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+                <a href="https://www.instagram.com/goodwateregypt/">
+                    <img class="ig" width="36px" height="36px" src="instagram.png" alt=""></a></div>
+
+            <div class="wh"></div>
         </div>
         <img class="bg" src="home_page.jpg"></div>
     </body>
